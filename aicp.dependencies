@@ -1,12 +1,17 @@
 [
   {
-    "repository": "Grarak/android_kernel_oneplus_msm8994",
+    "repository": "Cyanogenmod/android_device_oppo_common",
+    "target_path": "device/oppo/common",
+    "branch": "cm-12.1"
+  },
+  {
+    "repository": "Cyanogenmod/android_kernel_oneplus_msm8994",
     "target_path": "kernel/oneplus/msm8994",
     "branch": "cm-12.1"
   },
   {
-    "repository": "AICP/proprietary_vendor_oneplus",
+    "repository": "TheMuppets/proprietary_vendor_oneplus",
     "target_path": "vendor/oneplus",
-    "branch": "lp5.1"
+    "branch": "cm-12.1"
   }
 ]
