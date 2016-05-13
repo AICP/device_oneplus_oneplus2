@@ -223,6 +223,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     init.qcom.bt.sh
 
+# Gello
+PRODUCT_PACKAGES += \
+    Gello
+
 PRODUCT_PACKAGES += \
     fstab.qcom \
     init.qcom.power.rc \
