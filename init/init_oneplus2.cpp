@@ -34,19 +34,13 @@
 #include "log.h"
 #include "util.h"
 
-#include "init_msm.h"
-
-void init_msm_properties(unsigned long msm_id, unsigned long msm_ver, char *board_type) {
+void init_variant_properties() {
     char device[PROP_VALUE_MAX];
     char rf_version[PROP_VALUE_MAX];
     int rc;
 
-    UNUSED(msm_id);
-    UNUSED(msm_ver);
-    UNUSED(board_type);
-
     rc = property_get("ro.aicp.device", device);
-    if (!rc || !ISMATCH(device, "oneplus2"))
+    if (!rc || strncmp(device, "oneplus2", 8))
         return;
 
     property_get("ro.boot.rf_v1", rf_version);
@@ -69,5 +63,9 @@ void init_msm_properties(unsigned long msm_id, unsigned long msm_ver, char *boar
         property_set("telephony.lteOnCdmaDevice", "1");
         property_set("ro.telephony.default_network", "9,9");
     }
+}
+
+void vendor_load_properties() {
+    init_variant_properties();
 }
 
