@@ -10,8 +10,8 @@
     "branch":      "cm-14.0"
   },
   {
-    "repository":  "Grarak/proprietary_vendor_oneplus",
+    "repository":  "AICP/proprietary_vendor_oneplus",
     "target_path": "vendor/oneplus",
-    "branch":      "cm-14.0"
+    "branch":      "n7.0"
   }
 ]
