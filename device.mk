@@ -101,13 +101,9 @@ PRODUCT_PACKAGES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    camera.msm8994 \
+    libcamera_shim \
     sensors.hal.tof \
-    Snap
-
-# Charger
-PRODUCT_PACKAGES += \
-    charger_res_images
+    Camera2
 
 # Connectivity Engine support (CNE)
 PRODUCT_PACKAGES += \
