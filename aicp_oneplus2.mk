@@ -46,4 +46,4 @@ TARGET_VENDOR := oneplus
 
 # AICP Device Maintainers
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    DEVICE_MAINTAINERS="Shubh@m Goaple (shubhindia)"
+    DEVICE_MAINTAINERS="Shubh@m Gopale (shubhindia)"
