@@ -207,5 +207,8 @@ endif
 # Recovery
 TARGET_RECOVERY_FSTAB := $(PLATFORM_PATH)/rootdir/etc/fstab.qcom
 
+#Assertions
+TARGET_OTA_ASSERT_DEVICE := oneplus2,Oneplus2,OnePlus2
+
 # inherit from the proprietary version
 include vendor/oneplus/oneplus2/BoardConfigVendor.mk
