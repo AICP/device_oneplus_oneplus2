@@ -8,8 +8,13 @@
     "target_path": "kernel/oneplus/msm8994"
   },
  {
-    "repository": "TheMuppets/proprietary_vendor_oneplus",
-    "target_path": "vendor/oneplus",
+    "repository": "TheMuppets/proprietary_vendor_oneplus/oneplus2",
+    "target_path": "vendor/oneplus/oneplus2",
+    "branch": "lineage-16.0"
+ },
+ { 
+    "repository": "LineageOS/android_packages_resources_devicesettings",
+    "target_path": "packages/resources/devicesettings",
     "branch": "lineage-16.0"
  }
 ]
